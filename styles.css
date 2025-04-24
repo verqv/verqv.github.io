@@ -1,0 +1,28 @@
+.color-example {
+    color: red;
+    background-color: #2f2f2f;
+    border: 2px solid red;
+}
+
+.header-example {
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+    color: red;
+}
+
+.list-example {
+    list-style-type: square;
+    color: red;
+}
+.text-example {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.div-example {
+    background-color: #444; /* Dark Gray Background */
+    border: 2px solid #f00; /* Red Border */
+    padding: 10px;
+    color: white;
+}
