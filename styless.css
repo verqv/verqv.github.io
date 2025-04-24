@@ -63,3 +63,57 @@ footer {
     padding: 10px;
     color: #f00;
 }
+
+nav a {
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+.second-page {
+    background-color: #a9c7e7;
+}
+
+
+.second-page h1, .second-page h2 {
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    color: #2c3e50;
+}
+
+.second-page p {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #34495e;
+}
+
+.second-page header {
+    margin-bottom: 20px;
+}
+
+.second-page main {
+    padding: 20px;
+}
+
+.second-page footer {
+    margin-top: 30px;
+}
+
+.second-page nav ul li a {
+    text-decoration: none;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.second-page nav ul li a:hover {
+    color: #2980b9;
+}
