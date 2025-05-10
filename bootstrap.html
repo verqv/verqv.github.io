@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Simply Me - My Bootstrap Assignment</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
+    }
+    h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #303030;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+    .jumbotron {
+      background-color: #f4511e;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
+    }
+    .container-fluid {
+      padding: 60px 50px;
+    }
+    .bg-grey {
+      background-color: #f6f6f6;
+    }
+    .navbar {
+      margin-bottom: 0;
+      background-color: #f4511e;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+    }
+    .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+    }
+    .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+    }
+    .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+    }
+    .footer {
+      background-color: #f4511e;
+      color: white;
+      padding: 30px;
+    }
+    .img-thumbnail {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Simply Me</a>
+    </div>
+    <div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#portfolio">IMAGES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="jumbotron text-center">
+  <h1>Hello, I'm Vertti</h1>
+  <p>This is my first Bootstrap website!</p>
+</div>
+
+
+<div id="about" class="container-fluid">
+  <div class="row">
+    <div class="col-sm-8">
+      <h2>About Me</h2>
+      <p>Hello i'm vertti and on this site i am working on my bootstrap assignment hope you like it!</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="images/image1.jpg" class="img-responsive img-circle" alt="Profile Image">
+    </div>
+  </div>
+</div>
+
+
+<div id="portfolio" class="container-fluid bg-grey text-center">
+  <h2>My Gallery</h2>
+  <p>Here are three images that portray my interests:</p>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="images/image1.jpg" class="img-responsive img-thumbnail" alt="Image 1">
+    </div>
+    <div class="col-sm-4">
+      <img src="images/image2.jpg" class="img-responsive img-thumbnail" alt="Image 2">
+    </div>
+    <div class="col-sm-4">
+      <img src="images/image3.jpg" class="img-responsive img-thumbnail" alt="Image 3">
+    </div>
+  </div>
+</div>
+
+
+<div id="contact" class="container-fluid text-center">
+  <h2>Contact Me</h2>
+  <p>If you’d like to reach out, use the form below:</p>
+  <form class="form-inline">
+    <input type="text" class="form-control" size="50" placeholder="Name" required>
+    <br><br>
+    <input type="email" class="form-control" size="50" placeholder="Email Address" required>
+    <br><br>
+    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+    <br><br>
+    <button type="submit" class="btn btn-danger">Send</button>
+  </form>
+</div>
+
+
+<footer class="container-fluid text-center footer">
+  <p>© 2025 - My Bootstrap Assignment</p>
+</footer>
+
+</body>
+</html>
