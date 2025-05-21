@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CS2 Data - Home</title>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .hero {
+      background: #000; /* fallback black background */
+      height: 80vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+      padding: 0 15px;
+    }
+    .hero h1 {
+      font-weight: 900;
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .hero p {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.3rem;
+      }
+      .hero p {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">CS2 Data</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="teams.html">Teams</a></li>
+        <li class="nav-item"><a class="nav-link" href="media.html">Top5</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="container">
+      <h1>Welcome to CS2 Data</h1>
+      <p>Your hub for all things considering Counter-Strike 2  teams, players, and esports news(coming soon).</p>
+      <a href="teams.html" class="btn btn-danger btn-lg mr-3">Explore Teams</a>
+      <a href="media.html" class="btn btn-danger btn-lg mr-3">Meet the Players</a>
+
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <section class="text-center">
+      <h2>Why CS2 Data?</h2>
+      <p>
+        Dive deep into the world of Counter-Strike 2 with profiles of top teams and players, up-to-date esports info.
+      </p>
+      <p>
+        Whether you're a casual fan or a hardcore esports enthusiast, CS2 Data has something for everyone.
+      </p>
+    </section>
+
+<section class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-4 text-center mb-4">
+      <i class="fas fa-users fa-3x text-danger mb-3"></i>
+      <h3>Teams</h3>
+      <p>Learn about the top CS2 teams</p>
+      <a href="teams.html" class="btn btn-danger">View Teams</a>
+    </div>
+    <div class="col-md-4 text-center mb-4">
+      <i class="fas fa-star fa-3x text-danger mb-3"></i>
+      <h3>Top Players</h3>
+      <p>Discover the best players in CS2</p>
+      <a href="media.html" class="btn btn-danger">Meet the Players</a>
+    </div>
+  </div>
+</section>
+</main>
